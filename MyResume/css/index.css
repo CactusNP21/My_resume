@@ -1,0 +1,182 @@
+body{
+    background-color: #E5E5E5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Kanit', sans-serif;
+}
+
+a{
+    color: gray;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+li{
+    font-family: 'Kanit', sans-serif;
+}
+
+ul{
+    margin: 0;
+}
+
+ul, ol{
+    padding-left: 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    height: 100%;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+    margin-left: 40px;
+    margin-right: 88px;
+    width: 370px;
+    height: auto;
+    padding-top: 40px;
+}
+
+img{
+    margin-bottom: 51px;
+    width: auto;
+    height: 354px;
+}
+
+.contacts{
+    margin-bottom: 47px;
+}
+.contacts h3{
+    margin-bottom: 8px;
+}
+.contacts span{
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 10px;
+}
+.contacts a[href^="tel"]{
+    text-decoration: none;
+}
+.contacts a{
+    color: #0b2be7;
+}
+
+.aside-skills{
+    padding-left: 43px;
+}
+.aside-skills ul{
+    padding-left: 20px;
+}
+.aside-skills h3{
+    margin-bottom: 8px;
+}
+
+.tech-skills{
+    margin-bottom: 44px;
+}
+
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 30%;
+    margin-top: 102px;
+    padding-bottom: 100px;
+}
+
+.about-me h2{
+    margin-bottom: 19px;
+}
+.about-me h1{
+    margin-bottom: 24px;
+}
+.about-me{
+    margin-bottom: 40px;
+}
+
+.projects{
+    margin-bottom: 51px;
+}
+
+.ordered-list{
+    margin: 8px 0;
+}
+.ordered-list li{
+    padding-left: 8px;
+}
+.ordered-list li::marker {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.ordered-list span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.work h3{
+    margin-bottom: 12px;
+}
+.work h4{
+    margin: 0 0 11px 0;
+}
+.work p{
+    margin: 0 0 8px 0;
+}
+.work div{
+    margin-bottom: 43px;
+}
+.work .company{
+    margin-bottom: 16px;
+}
+
+.education h3, h4, p{
+    margin: 12px 0 12px 0;
+}
+.education h3{
+    margin-top: 0;
+}
+.education p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.name{
+     color: #FB6D3A;
+ }
+
+.date{
+    color: darkgrey;
+}
+
+
+
+
+
+
+
+
+
